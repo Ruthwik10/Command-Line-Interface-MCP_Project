@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./.venv/Scripts/python.exe -c ' *)",
+      "Bash(./.venv/Scripts/python.exe -c \"import importlib.metadata as m; print\\('mcp', m.version\\('mcp'\\)\\)\")",
+      "Bash(./.venv/Scripts/python.exe _smoke.py)"
+    ]
+  }
+}
